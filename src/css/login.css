@@ -1,0 +1,13 @@
+
+.login_div{
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   h2{
+    text-align: center;
+   }
+   .buttons{
+   text-align: center;
+padding: 5px;
+   }
+}
