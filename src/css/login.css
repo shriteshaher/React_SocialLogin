@@ -1,13 +1,29 @@
 
 .login_div{
    display: flex;
-   justify-content: center;
-   padding: 5px;
-   h2{
+   justify-content: center;   padding: 5px;
+      h2{
     text-align: center;
+    color: #1976d2;
    }
    .buttons{
    text-align: center;
 padding: 5px;
+
    }
+}
+
+.my-facebook-button-class{
+   i{
+      display: none;
+   }
+   background-color: #1976d2;
+   border: none;
+   margin: 2px red solid;
+   font-size: 15px;
+   color: white;
+}
+.my-facebook-button-class:hover{
+   background-color: #1976d2;
+   color: none;
 }
